@@ -20,7 +20,7 @@ $(objdir)/%.o: $(srcdir)/%.c
 objects = $(objdir)/shell.o
 
 shell : $(objects) 
-	$(CC) -o $(execdir)/shell $(LDFLAGS) $(objects)
+	$(CC) -o $(execdir)/shell $(LDFLAGS) $(objects) -lreadline
 
 .PHONY : clean
 
