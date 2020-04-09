@@ -7,4 +7,4 @@ main (int argc, char* argv[]){
 }
 #pragma GCC diagnostic pop // Re-enable -Wunused-parameter (test below)
 int
-warnMe(int neverUser) { return 0; }
+warnMe(int neverUsed) { return 0; }

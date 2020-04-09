@@ -1,0 +1,2 @@
+*.[ao]
+./{build,build_debug}/bin/*
