@@ -1,0 +1,2 @@
+This is intended to be a pedogagic program using Linux/C interfaces to power a simplistic shell.
+Development works by adding individual test-case features, then bringing them together.
