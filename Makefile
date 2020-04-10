@@ -5,7 +5,7 @@ srcdir = src
 debug = true
 
 ifeq ($(debug),true)
-	CFLAGS += -DDEBUG -g
+	CFLAGS += -DDEBUG -g3
 	builddir = debug
 else
 	builddir = build

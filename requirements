@@ -1,1 +1,2 @@
-readline
+GNU readline
+uthash - For hash table (stored in a single header!)
